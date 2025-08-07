@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>✨ Teen Vibe Web Playground</title>
+  <link rel="stlyesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌟 Welcome to My Teen Vibe JS Playground 🌟</h1>
+    <p class="tagline">Learn, vibe, and code your way through JavaScript! 🎧</p>
+  </header>
+
+  <!-- 🎯 PART 1 -->
+  <section class="card" id="part1">
+    <h2>🎯 Am I a Teen?</h2>
+    <input type="number" id="ageInput" placeholder="Drop your age here..." />
+    <button onclick="checkTeen()">Let's Check ➡️</button>
+    <p id="ageResult" class="result"></p>
+  </section>
+
+  <!-- ❤️ PART 2 -->
+  <section class="card" id="part2">
+    <h2>❤️ My Magic Functions</h2>
+    <button onclick="showFormattedName()">Format My Cool Name 😎</button>
+    <p id="formattedName" class="result"></p>
+
+    <button onclick="calculateTotal()">Calculate My Cart 🛒</button>
+    <p id="totalCost" class="result"></p>
+  </section>
+
+  <!-- 🔁 PART 3 -->
+  <section class="card" id="part3">
+    <h2>🔁 Loop It Like a Boss</h2>
+    <button onclick="showCountdown()">Hype Countdown 🔥</button>
+    <p id="countdown" class="result"></p>
+
+    <button onclick="listHobbies()">My Fave Hobbies 🧸</button>
+    <ul id="hobbyList" class="result-list"></ul>
+  </section>
+
+  <!-- 🌐 PART 4 -->
+  <section class="card" id="part4">
+    <h2>🌐 Interact with the Vibe</h2>
+    <button onclick="toggleTheme()">✨ Toggle the Mood</button>
+    <p id="domStatus" class="result">Click the button to change the vibe! 🎨</p>
+  </section>
+
+  <footer>
+    <p>Made with 💻 + 🎶 by a Teen Dev</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
